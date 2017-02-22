@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="GUI">
+      <UniqueIdentifier>{3146b7f6-4f90-4751-8b3f-8acd49cc059d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI\Source Files">
+      <UniqueIdentifier>{18c60699-2002-4366-a75b-8912c4b8f2d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI\Header Files">
+      <UniqueIdentifier>{4975a5d8-1224-4d1f-922d-8db2617fe3a2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimatedObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Block.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Chunk.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SettingsManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Effects.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticlesEmitter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Coin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EndlessChunkInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LightMap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Button.cpp">
+      <Filter>GUI\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\CheckBox.cpp">
+      <Filter>GUI\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\DropDownList.cpp">
+      <Filter>GUI\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Option.cpp">
+      <Filter>GUI\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\ProgressBar.cpp">
+      <Filter>GUI\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\TrackBar.cpp">
+      <Filter>GUI\Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Player.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimatedObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Block.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Chunk.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SettingsManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Effects.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticlesEmitter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Coin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EndlessChunkInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LightMap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>GUI\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CheckBox.h">
+      <Filter>GUI\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Control.h">
+      <Filter>GUI\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DropDownList.h">
+      <Filter>GUI\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Option.h">
+      <Filter>GUI\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ProgressBar.h">
+      <Filter>GUI\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TrackBar.h">
+      <Filter>GUI\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\SfmlGui.h">
+      <Filter>GUI\Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="rungame.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="icon.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
